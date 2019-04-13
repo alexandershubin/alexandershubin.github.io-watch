@@ -200,7 +200,7 @@ th {
 body {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
-  min-width: 1200px;
+  min-width: 320px;
   margin: 0;
   padding: 0;
   color: #ffffff;
@@ -312,7 +312,7 @@ img {
           align-items: center;
   font-size: 35px;
   font-weight: 400;
-  width: 521px;
+  width: 320px;
   background: url("../img/hit.png") no-repeat;
   background-size: 388px 77px;
   background-position: 8px 19px;
@@ -344,7 +344,7 @@ img {
             align-items: center;
     font-size: 35px;
     font-weight: 400;
-    width: 521px;
+    width: 510px;
     background: url("../img/hit.png") no-repeat;
     background-size: 388px 77px;
     background-position: 8px 19px;
@@ -448,7 +448,7 @@ img {
 }
 li.differences__item {
   color: #ffffff;
-  font-size: 44px;
+  font-size: 24px;
   text-align: center;
   padding-bottom: 67px;
 }
@@ -502,7 +502,6 @@ li.differences__item p {
     -webkit-box-ordinal-group: inherit;
         -ms-flex-order: inherit;
             order: inherit;
-    margin-right: 70px;
     padding-bottom: 0;
   }
   .differences__list {
@@ -512,7 +511,6 @@ li.differences__item p {
     margin: 0;
   }
   li.differences__item {
-    width: 270px;
     color: #ffffff;
     font-size: 22px;
     text-align: center;
@@ -526,10 +524,10 @@ li.differences__item p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-bottom: 35px;
+    margin-right: 40px;
   }
 }
 .sale {
@@ -537,17 +535,17 @@ li.differences__item p {
       -ms-flex-order: 1;
           order: 1;
   position: relative;
-  width: 100%;
+  width: 320px;
 }
 .sale__images {
   position: relative;
 }
 .sale__images img {
   position: absolute;
-  width: 630px;
-  height: 760px;
-  top: -180px;
-  left: 305px;
+  width: 320px;
+  height: 410px;
+  top: 55px;
+  left: 20px;
   z-index: 1;
 }
 .sale__wrapper {
@@ -555,16 +553,16 @@ li.differences__item p {
 }
 .sale__pictures img {
   position: absolute;
-  top: -166px;
-  left: -75px;
+  top: -98px;
+  left: -128px;
   z-index: 0;
 }
 .sale__paint img {
   position: absolute;
-  top: 302px;
-  left: 280px;
-  height: 132px;
-  width: 635px;
+  top: 323px;
+  left: 0;
+  height: 65px;
+  width: 320px;
 }
 .sale__discription {
   position: relative;
@@ -572,27 +570,25 @@ li.differences__item p {
   display: -ms-flexbox;
   display: flex;
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.49);
-  font-size: 27px;
+  font-size: 20px;
   padding-top: 153px;
-  padding-right: 60px;
+  padding-right: 15px;
   text-transform: uppercase;
   height: 85px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 85px;
 }
 .sale__discription .sale__direct {
   text-decoration: line-through;
-  padding-left: 35px;
+  padding-left: 15px;
 }
 .sale h2 {
   color: #ffffff;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   padding-bottom: 22px;
-  padding-top: 37px;
-  padding-left: 180px;
 }
 .sale__list {
   display: -webkit-box;
@@ -652,8 +648,8 @@ li.differences__item p {
   padding-top: 15px;
 }
 .button-link {
-  width: 563px;
-  min-height: 100px;
+  width: 320px;
+  min-height: 60px;
   text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
   font-size: 36px;
   font-weight: 400;
@@ -667,17 +663,17 @@ li.differences__item p {
         -ms-flex-order: 1;
             order: 1;
     position: relative;
-    width: 100%;
+    width: 500px;
   }
   .sale__images {
     position: relative;
   }
   .sale__images img {
     position: absolute;
-    width: 630px;
-    height: 760px;
-    top: -180px;
-    left: 305px;
+    width: 510px;
+    height: 670px;
+    top: -133px;
+    left: 43px;
     z-index: 1;
   }
   .sale__wrapper {
@@ -685,16 +681,16 @@ li.differences__item p {
   }
   .sale__pictures img {
     position: absolute;
-    top: -166px;
-    left: -75px;
+    top: -132px;
+    left: -214px;
     z-index: 0;
   }
   .sale__paint img {
     position: absolute;
-    top: 302px;
-    left: 280px;
-    height: 132px;
-    width: 635px;
+    top: 316px;
+    left: 21px;
+    height: 100px;
+    width: 550px;
   }
   .sale__discription {
     position: relative;
@@ -704,12 +700,12 @@ li.differences__item p {
     text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.49);
     font-size: 27px;
     padding-top: 153px;
-    padding-right: 60px;
+    padding-right: 0;
     text-transform: uppercase;
     height: 85px;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-bottom: 85px;
   }
   .sale__discription .sale__direct {
@@ -722,7 +718,7 @@ li.differences__item p {
     font-weight: 400;
     padding-bottom: 22px;
     padding-top: 37px;
-    padding-left: 180px;
+    padding-left: 0;
   }
   .sale__list {
     display: -webkit-box;
@@ -735,6 +731,7 @@ li.differences__item p {
     margin: 0;
     padding: 0;
     margin-bottom: 30px;
+    margin-left: 40px;
   }
   .sale__item {
     margin-right: 40px;
@@ -782,8 +779,8 @@ li.differences__item p {
     padding-top: 15px;
   }
   .button-link {
-    width: 563px;
-    min-height: 100px;
+    width: 540px;
+    min-height: 90px;
     text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
     font-size: 36px;
     font-weight: 400;
@@ -923,6 +920,7 @@ li.differences__item p {
   }
 }
 .comment {
+  width: 320px;
   position: relative;
   padding-top: 40px;
   -webkit-box-ordinal-group: 4;
@@ -932,20 +930,20 @@ li.differences__item p {
 .comment__pictures img {
   position: absolute;
   top: -60px;
-  left: 240px;
-  width: 398px;
-  height: 60px;
+  left: 7px;
+  width: 320px;
+  height: 45px;
 }
 .comment__header {
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   color: #ffcb00;
   margin: 0;
 }
 .comment__discription {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
@@ -957,8 +955,8 @@ li.differences__item p {
   font-weight: 400;
   text-transform: uppercase;
   border: 5px solid #ffcc00;
-  width: 563px;
-  min-height: 100px;
+  width: 320px;
+  min-height: 60px;
   -webkit-box-shadow: inset 0 0 5px #b79305f5;
           box-shadow: inset 0 0 5px #b79305f5;
   background-color: inherit;
@@ -966,7 +964,7 @@ li.differences__item p {
 }
 .comment__pay {
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -976,30 +974,32 @@ li.differences__item p {
 .comment__list {
   position: relative;
   list-style: none;
-  font-size: 44px;
+  font-size: 24px;
   font-weight: 400;
 }
 .comment__item {
   padding-bottom: 50px;
   text-align: center;
+  margin-left: -50px;
 }
 .comment__item--men img {
-  position: absolute;
+  position: inherit;
   top: -25px;
   left: -50px;
 }
 .comment__item--pay img {
-  position: absolute;
+  position: inherit;
   top: 105px;
   left: 100px;
 }
 .comment__item--plane img {
-  position: absolute;
+  position: inherit;
   top: 200px;
   left: 115px;
 }
 @media (min-width: 768px) {
   .comment {
+    width: 500px;
     position: relative;
     padding-top: 40px;
     -webkit-box-ordinal-group: 4;
@@ -1009,7 +1009,7 @@ li.differences__item p {
   .comment__pictures img {
     position: absolute;
     top: -60px;
-    left: 240px;
+    left: 55px;
     width: 398px;
     height: 60px;
   }
@@ -1034,7 +1034,7 @@ li.differences__item p {
     font-weight: 400;
     text-transform: uppercase;
     border: 5px solid #ffcc00;
-    width: 563px;
+    width: 500px;
     min-height: 100px;
     -webkit-box-shadow: inset 0 0 5px #b79305f5;
             box-shadow: inset 0 0 5px #b79305f5;
@@ -1059,6 +1059,7 @@ li.differences__item p {
   .comment__item {
     padding-bottom: 50px;
     text-align: center;
+    margin-left: 0;
   }
   .comment__item--men img {
     position: absolute;
@@ -1067,17 +1068,18 @@ li.differences__item p {
   }
   .comment__item--pay img {
     position: absolute;
-    top: 105px;
-    left: 100px;
+    top: 179px;
+    left: 0;
   }
   .comment__item--plane img {
     position: absolute;
-    top: 200px;
-    left: 115px;
+    top: 311px;
+    left: -50px;
   }
 }
 @media (min-width: 1200px) {
   .comment {
+    width: auto;
     position: relative;
     padding-top: 40px;
     -webkit-box-ordinal-group: inherit;
@@ -1163,16 +1165,15 @@ li.differences__item p {
 .modal-login {
   display: none;
   top: 30px;
-  width: 550px;
-  height: 800px;
-  margin-left: 123px;
+  width: 320px;
+  height: 600px;
   z-index: 10;
 }
 .modal-login h2 {
-  text-align: left;
-  padding-left: 50px;
+  text-align: center;
+  padding-top: 10px;
   text-transform: uppercase;
-  font-size: 34px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 45px;
 }
@@ -1296,9 +1297,8 @@ li.differences__item p {
 }
 .text-letter h3 {
   height: 25px;
-  font-size: 25px;
+  font-size: 21px;
   font-weight: 400;
-  margin-right: 150px;
 }
 input[type="tel"] {
   font-size: 16px;
@@ -1308,7 +1308,7 @@ input[type="tel"] {
 input#name-field,
 input#name-tel {
   color: #000000;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
 }
 .login-form input[type="text"],
@@ -1316,9 +1316,8 @@ input#name-tel {
   border: 2px solid #d7dcde;
   margin-top: 6px;
   margin-bottom: 16px;
-  padding-left: 12px;
-  width: 485px;
-  height: 85px;
+  width: 300px;
+  height: 50px;
   -webkit-box-shadow: inset 1px 3px 7px rgba(0, 0, 0, 0.35);
           box-shadow: inset 1px 3px 7px rgba(0, 0, 0, 0.35);
   background-color: #ffffff;
@@ -1332,14 +1331,197 @@ input#name-tel {
   border-color: #b4b9bb;
 }
 .button-plus {
-  width: 360px;
-  min-height: 100px;
+  width: 320px;
+  min-height: 60px;
   text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
   background-color: #ffcc00;
   margin-bottom: 100px;
+}
+@media (min-width: 768px) {
+  .modal {
+    position: fixed;
+    background-image: url("../img/fon_form.png");
+    background-size: cover;
+    -webkit-box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+            box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+  }
+  .modal-login {
+    display: none;
+    top: 0;
+    width: 691px;
+    height: 800px;
+    margin-left: 5%;
+    z-index: 10;
+  }
+  .modal-login h2 {
+    text-align: left;
+    padding-left: 50px;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 45px;
+  }
+  .modal-login span {
+    color: #ffcb00;
+  }
+  @-webkit-keyframes bounce {
+    0% {
+      -webkit-transform: translateY(-2000px);
+              transform: translateY(-2000px);
+    }
+    70% {
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+    90% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @keyframes bounce {
+    0% {
+      -webkit-transform: translateY(-2000px);
+              transform: translateY(-2000px);
+    }
+    70% {
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+    90% {
+      -webkit-transform: translateY(-10px);
+              transform: translateY(-10px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  @-webkit-keyframes shake {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+  }
+  @keyframes shake {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60%,
+    80% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+  }
+  .modal-show {
+    display: block;
+    -webkit-animation: bounce 0.6s;
+            animation: bounce 0.6s;
+  }
+  .modal-error {
+    -webkit-animation: shake 0.6s;
+            animation: shake 0.6s;
+  }
+  .modal-close {
+    opacity: 0.3;
+  }
+  .modal-close:hover,
+  .modal-close:focus {
+    opacity: 1;
+  }
+  .modal-close:active {
+    opacity: 0.1;
+  }
+  .modal-close svg {
+    position: absolute;
+    top: 12px;
+    right: 22px;
+    font-size: 0;
+    border: 0;
+    cursor: pointer;
+    color: #d7373b;
+  }
+  .text-box {
+    margin: 0;
+    margin-bottom: 11px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+  input[type="tel"] {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  input#name-field {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .login-form input[type="text"],
+  .login-form input[type="tel"] {
+    border: 2px solid #d7dcde;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding-left: 12px;
+    width: 485px;
+    height: 85px;
+    -webkit-box-shadow: inset 1px 3px 7px rgba(0, 0, 0, 0.35);
+            box-shadow: inset 1px 3px 7px rgba(0, 0, 0, 0.35);
+    background-color: #ffffff;
+  }
+  .text-letter-box:focus,
+  .login-form input:focus {
+    border-color: #000000;
+  }
+  .text-letter-box:hover,
+  .login-form input:hover {
+    border-color: #b4b9bb;
+  }
+  .button-plus {
+    width: 360px;
+    min-height: 100px;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.46);
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ffcc00;
+    margin-bottom: 100px;
+  }
 }
 @media (min-width: 1200px) {
   .modal {
@@ -1354,7 +1536,7 @@ input#name-tel {
     top: 0;
     width: 691px;
     height: 800px;
-    margin-left: 25%;
+    margin-left: 20%;
     z-index: 10;
   }
   .modal-login h2 {
