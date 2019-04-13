@@ -571,14 +571,13 @@ li.differences__item p {
   display: flex;
   text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.49);
   font-size: 20px;
-  padding-top: 153px;
+  padding-top: 215px;
   padding-right: 15px;
   text-transform: uppercase;
   height: 85px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 85px;
 }
 .sale__discription .sale__direct {
   text-decoration: line-through;
